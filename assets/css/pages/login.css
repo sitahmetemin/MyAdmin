@@ -1,0 +1,38 @@
+html,
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #6f6ffd;
+    background: linear-gradient(180deg , #fa68b1 0%, #6f6ffd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    width: 33%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    height: 33%;
+    width: 33%;
+}
+
+.logo > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer{
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+
+}
