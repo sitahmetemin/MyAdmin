@@ -1,3 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
     /* background-color: #fdfdfd; */
     background-color: #fbfbfb;
@@ -48,13 +68,14 @@ body {
 .profile-section {
     width: 100%;
     min-height: 15rem;
-    background-color: #2185d0;
+    /* background-color: #2185d0; */
+    background: rgb(33,133,208);
+    background: linear-gradient(180deg, rgba(33,133,208,1) 0%, rgba(0,255,244,1) 100%);
     margin-top: 3.9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
 }
 
 .profile-section > img {
@@ -85,6 +106,13 @@ body {
     color: #fff;
 }
 
+.menu-header{
+    background-color: #f1f1f1;
+    padding: .5rem;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
 .menu-section > ul > li i {
     margin: 0 1rem;
     font-size: 24px;
@@ -112,26 +140,6 @@ body {
     text-decoration: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 .btn-circle {
     border-radius: 50%;
 }
@@ -150,7 +158,8 @@ body {
     width: 100%;
     background: #fff;
     border-radius: 0.8rem;
-    border: solid 1px #ddd;
+    border: solid 1px #f0f0f0;
+    margin: 1rem 0;
 }
 
 .main-head {
@@ -160,12 +169,47 @@ body {
     display: flex;
     align-items: center;
     font-weight: bolder;
+    border-radius: .8rem .8rem 0 0;
 }
 
 .main-head > .button-section {
     margin-left: auto;
+    display: flex;
+}
+.main-head > .button-section > * {
+    margin: 0 .3rem
 }
 
 .main-card > .main-body {
     padding: 1rem 0.5rem;
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.form-group{
+    margin: .5rem 1rem;
+}
+
+.btn-orange,
+.bg-orange{
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.btn-cyan,
+.bg-cyan{
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+
+.btn-purple,
+.bg-purple{
+    background-color: #6200ea;
+    color: #fff;
+}
+
+.btn-green,
+.bg-green{
+    background-color: #8bc34a;
+    color: #000;
 }
