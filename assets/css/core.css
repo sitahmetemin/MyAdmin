@@ -70,7 +70,7 @@ body {
     min-height: 15rem;
     /* background-color: #2185d0; */
     background: rgb(33,133,208);
-    background: linear-gradient(180deg, rgba(33,133,208,1) 0%, rgba(0,255,244,1) 100%);
+    background: linear-gradient(160deg, #2185d0 30%, #4be08a 100%);
     margin-top: 3.9rem;
     display: flex;
     flex-direction: column;
@@ -181,7 +181,7 @@ body {
 }
 
 .main-card > .main-body {
-    padding: 1rem 0.5rem;
+    padding: .5rem 1rem;
     border-radius: 0 0 .8rem .8rem;
 }
 
@@ -212,4 +212,42 @@ body {
 .bg-green{
     background-color: #8bc34a;
     color: #000;
+}
+
+.special-card{
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.special-card i{
+    font-size: 4rem;
+}
+
+.card-title-seciton{
+    margin-right: auto;
+}
+
+.blue-green{
+    background: linear-gradient(45deg, #0061ff 0%, #4be08a 100%);
+}
+
+.pink-darkred{
+    background: linear-gradient(45deg, #FF978C 0%, #A81501 100%);
+}
+
+.purple-yellow{
+    background: linear-gradient(45deg, #F42C49 0%, #FFC43D 100%);
+}
+
+.pink-blue{
+    background: linear-gradient(45deg, #f42cd2 0%, #3ddbff 100%);
 }

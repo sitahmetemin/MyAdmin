@@ -7,7 +7,7 @@ body{
     min-width: 100%;
     /* overflow: hidden; */
     background: #6f6ffd;
-    background: linear-gradient(180deg , #247BA0 0%, #FF1654 100%);
+    background: linear-gradient(160deg , #F42C49 0%, #FFC43D 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,23 +48,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poiret One', cursive;
 }
 .timer > *{
     margin-right: 1rem;
 
-}
-
-.days {
-  color: #70C1B3;
-}
-.hours {
-  color: #B2DBBF;
-}
-.minutes {
-  color: #F3FFBD;
-}
-.seconds {
-  color: #abcd58;
 }
 
 .exp{
